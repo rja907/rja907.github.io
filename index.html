@@ -27,9 +27,9 @@
         <i class="fa fa-times" aria-hidden="true"></i>
       </div>
       <ul id="menu" class="shadow">
-        <li>
+        <!-- <li>
           <a href="#about">About</a>
-        </li>
+        </li> -->
         <li>
           <a href="#experience">Experience</a>
         </li>
@@ -49,7 +49,7 @@
     </header>
     <!-- End header -->
 
-    <div id="lead" style="background-color: black;">
+    <div id="lead" style="background-color: black">
       <div id="lead-content">
         <h1>Raj</h1>
         <br />
@@ -74,42 +74,126 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="heading">About Me</h2>
-          </div>
-          <div class="col-md-8">
-            <p>
-              I am a Software Engineer with a knack for Product design.
-              <br />
-              I have a Bachelor's degree in Computer Science and Engineering and
-              over 2 years of experience in the industry.
+    <!-- <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="heading">About Me</h2>
+        </div>
+        <div class="col-md-8">
+          <p>
+            I am a Software Engineer with a knack for Product design.
+            <br />
+            I have a Bachelor's degree in Computer Science and Engineering and
+            over 2 years of experience in the industry.
 
-              <br />
-              I absolutely love GitHub and I like to work on Personal Projects
-              that help me deepen my understanding of different technologies.
+            <br />
+            I absolutely love GitHub and I like to work on Personal Projects
+            that help me deepen my understanding of different technologies.
 
-              <br />
-              You can check out dozens of my Personal projects
-              <a
-                href="http://github.com/rja907"
-                target="_blank"
-                UA-label="About_Github"
-                >here</a
-              >! Contact me for more!
-            </p>
-          </div>
+            <br />
+            You can check out dozens of my Personal projects
+            <a href="http://github.com/rja907" target="_blank" UA-label="About_Github">here</a>! Contact me for more!
+          </p>
         </div>
       </div>
     </div>
+  </div> -->
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
       <h2 class="heading">Experience</h2>
       <div id="experience-timeline">
-        <!-- <div data-date="August 2018 – June 2019">
+        <div data-date="October 2019 – Present">
+          <h3>Zulily</h3>
+          <h4>Software Development Engineer 2</h4>
+          <ul>
+            <li>
+              Designed, implemented and deployed 2 Java services that support
+              Document downloads for Purchase Orders that resulted in
+              deprecation of legacy PHP code, up to a 10x performance
+              improvement in download times and reduction of generated file
+              sizes.
+            </li>
+            <li>
+              Designed, implemented and deployed a Java service that monitors an
+              Amazon SNS topic and pushes notification emails and alerts for
+              different states of an Inbound Shipment.
+            </li>
+            <li>
+              Implemented a workflow to empower vendors to upload assets like
+              images, videos and zip files to Amazon S3 so that they can be
+              pushed to the Merchandising team using an email and be used on the
+              website.
+            </li>
+            <li>
+              Automated the process of catching fraudulent/cancelled orders and
+              alerting dropship vendors before orders were shipped by them which
+              saved $457K for the company and lost inventory for vendors.
+            </li>
+            <li>
+              Mentored an intern regarding the backend setup of the intern
+              project.
+            </li>
+            <li>
+              Reduced auto-generated on call tickets by implementing a retry
+              function that removed tickets that were generated due to
+              intermittent issues.
+            </li>
+            <li>
+              Automated the process of setting up the Weekly Business Review
+              Document using Gitlab pipelines, Slack hooks and a Python script.
+            </li>
+            <li>
+              Reduced oncall load caused by auto-generated tickets by
+              implementing a retry logic that caught intermittent errors and
+              retried them using a Timer.
+            </li>
+            <li>
+              Worked on 2 different UIs that were written in Angular and React.
+              One was vendor facing with over 5K weekly average users. Another
+              one was an internal site for the Account Managers to control
+              events, vendors, purchase orders and shipments.
+            </li>
+            <li>
+              Automated the process of setting up the vendor portal using
+              Docker, Gitlab and shell scripting.
+            </li>
+            <li><b>Languages</b>: Java, Python, MySQL, PHP, Javascript.</li>
+            <li>
+              <b>Technologies/Frameworks</b>: Dropwizard, JUnit, Maven, Gradle,
+              Hibernate, AWS, GCP, Git, Elasticsearch, Kibana, Gitlab, Docker,
+              Kubernetes, Jira, Confluence.
+            </li>
+          </ul>
+        </div>
+        <div data-date="August 2019 – October 2019">
+          <h3>Turnstyle</h3>
+          <h4>Software Engineer</h4>
+          <ul>
+            <li>
+              Worked as the only other developer for creating website components
+              for business customers like UMC, Teague and Bloodworks Ventures.
+            </li>
+            <li>
+              Set up the deployment server for Bloodworks Ventures using Digital
+              Ocean.
+            </li>
+            <li>
+              Wrote configuration scripts using Gulp, Webpack, PostCSS, Tailwind
+              etc. to package the bundle files and minimize the file sizes and
+              decrease the page load times for sites.
+            </li>
+            <li>
+              Received multiple certifications for CSS, Web Design and CraftCMS.
+            </li>
+            <li><b>Languages</b>: HTML, CSS, Javascript, PHP, MySQL.</li>
+            <li>
+              <b>Technologies/Frameworks</b>: DigitalOcean and FortRabbit.
+            </li>
+          </ul>
+        </div>
+        <div data-date="August 2018 – June 2019">
           <h3>Evocalize (Madrona Venture-backed Seattle startup)</h3>
           <h4>Software Engineer (Backend)</h4>
           <ul>
@@ -174,7 +258,7 @@
               Sentry, HAProxy, LetsEncrypt, Terraform.
             </li>
           </ul>
-        </div> -->
+        </div>
         <div data-date="December 2017 – May 2018">
           <h3>TAI Schools</h3>
           <h4>Junior Software Engineer</h4>
@@ -188,9 +272,7 @@
               Added Google Analytics for all the platforms and added a Human
               Centered design that led to an increase of user visits by 2700%.
             </li>
-            <li>
-              Implemented payments using Razorpay API.
-            </li>
+            <li>Implemented payments using Razorpay API.</li>
             <li>
               Added responsive styling for the whole website and turned it into
               a Progressive Web Application.
@@ -251,7 +333,7 @@
           extremely active in the
           <a
             href="#achievements"
-            style="text-decoration: none;"
+            style="text-decoration: none"
             UA-label="College_Extra"
             >extra-curriculars</a
           >
@@ -275,9 +357,7 @@
         <h3>Online Certificates</h3>
         <h4></h4>
         <ul>
-          <li>
-            FreeCodeCamp: Front End Web Developer Certificate
-          </li>
+          <li>FreeCodeCamp: Front End Web Developer Certificate</li>
           <li>Udemy: Modern React With Redux</li>
           <li>Udemy: Node With React: Full Stack Web Development</li>
           <li>Udemy: The Complete React Native and Redux</li>
@@ -291,27 +371,28 @@
 
     <div
       id="skills"
-      style="background-color: #f2f2f5 !important;margin-bottom: 0;"
+      style="background-color: #f2f2f5 !important; margin-bottom: 0"
     >
       <h2 class="heading">Skills</h2>
       <ul>
-        <li style="background-color: white !important;">Java</li>
-        <li style="background-color: white !important;">Kotlin</li>
-        <li style="background-color: white !important;">PostgreSQL</li>
-        <li style="background-color: white !important;">GraphQL</li>
-        <li style="background-color: white !important;">JavaScript</li>
-        <li style="background-color: white !important;">Python</li>
-        <li style="background-color: white !important;">Node.js</li>
-        <li style="background-color: white !important;">AngularJS</li>
-        <li style="background-color: white !important;">ReactJS</li>
-        <li style="background-color: white !important;">Ruby on Rails</li>
-        <li style="background-color: white !important;">Solidity</li>
-        <li style="background-color: white !important;">HTML5</li>
-        <li style="background-color: white !important;">CSS3</li>
+        <li style="background-color: white !important">Java</li>
+        <li style="background-color: white !important">Kotlin</li>
+        <li style="background-color: white !important">PHP</li>
+        <li style="background-color: white !important">PostgreSQL</li>
+        <li style="background-color: white !important">GraphQL</li>
+        <li style="background-color: white !important">JavaScript</li>
+        <li style="background-color: white !important">Python</li>
+        <li style="background-color: white !important">Node.js</li>
+        <li style="background-color: white !important">AngularJS</li>
+        <li style="background-color: white !important">ReactJS</li>
+        <li style="background-color: white !important">Ruby on Rails</li>
+        <li style="background-color: white !important">Solidity</li>
+        <li style="background-color: white !important">HTML5</li>
+        <li style="background-color: white !important">CSS3</li>
       </ul>
     </div>
     <!-- End #skills -->
-    <hr style="border-color: #ddd;margin: 0;padding: 0;" />
+    <hr style="border-color: #ddd; margin: 0; padding: 0" />
     <section id="achievements">
       <div id="education">
         <h2 class="heading">Achievements</h2>
@@ -322,7 +403,7 @@
               <b
                 ><a
                   href="https://stackoverflow.com/users/8588359/raj?tab=profile"
-                  >Top 10% contributor for the year 2019</a
+                  >Top 6% contributor for the year 2020</a
                 ></b
               >
               on StackOverflow.
@@ -405,7 +486,7 @@
         <div class="column">
           <div class="project col-md-6">
             <!-- End .project-image -->
-            <div class="project-info" style="margin-top: 0%;">
+            <div class="project-info" style="margin-top: 0%">
               <h3>Emaily</h3>
               <p>
                 A​ MERN Stack (MongoDB, Express, React, Node) Feedback
@@ -415,7 +496,7 @@
                 ​(Google)​ ​and​ ​can​ ​accept​ ​payments​ ​online using Stripe.
               </p>
               <a
-                href="https://scary-grave-19647.herokuapp.com/"
+                href="https://github.com/rja907/Emaily"
                 target="_blank"
                 UA-label="Project_Emaily"
                 >View Project</a
@@ -446,7 +527,7 @@
           </div>
           <!-- End .project -->
         </div>
-        <p style="text-align: center; padding-top:10%;">
+        <p style="text-align: center; padding-top: 10%">
           For more projects and Open source contributions, please check out my
           <a
             href="https://github.com/rja907"
@@ -490,9 +571,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5 copyright">
-            <p>
-              Copyright &copy; 2018 RAJ
-            </p>
+            <p>Copyright &copy; 2020 RAJ</p>
           </div>
           <div class="col-sm-2 top">
             <span id="to-top">
@@ -501,7 +580,7 @@
           </div>
           <div class="col-sm-5 social">
             <ul>
-              <!-- <li>
+              <li>
                 <a
                   href="https://github.com/rja907"
                   UA-label="Footer_Github"
@@ -520,53 +599,52 @@
                 >
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-              </li> -->
-              <!-- <li>
+              </li>
+              <li>
                 <a
                   href="https://angel.co/rja907"
                   UA-label="Footer_Angelist"
                   title="AngelList"
                   target="_blank"
                 >
-                  <i style="font-size:18px" class="fa">&#xf209;</i>
+                  <i style="font-size: 18px" class="fa">&#xf209;</i>
                 </a>
-              </li> -->
-              <!-- <li>
+              </li>
+              <li>
                 <a
                   href="https://codepen.io/rja907"
                   UA-label="Footer_Codepen"
                   title="Codepen"
                   target="_blank"
                 >
-                  <i style="font-size:18px" class="fa">&#xf1cb;</i>
+                  <i style="font-size: 18px" class="fa">&#xf1cb;</i>
                 </a>
-              </li> -->
-              <!-- <li>
+              </li>
+              <li>
                 <a
                   href="https://medium.com/@rja907"
                   UA-label="Footer_Medium"
                   title="Medium"
                   target="_blank"
                 >
-                  <i style="font-size:18px" class="fa">&#xf23a;</i>
+                  <i style="font-size: 18px" class="fa">&#xf23a;</i>
                 </a>
-              </li> -->
-              <!-- <li>
+              </li>
+              <li>
                 <a
                   href="https://stackoverflow.com/users/8588359/raj?tab=profile"
                   UA-label="Footer_StackOverflow"
                   title="StackOverflow"
                   target="_blank"
                 >
-                  <i style="font-size:18px" class="fa fa-stack-overflow"></i>
+                  <i style="font-size: 18px" class="fa fa-stack-overflow"></i>
                 </a>
-              </li> -->
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-    <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
