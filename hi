@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forced Drinking</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: F3F3F5;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-top: 0;
+      text-align: center;
+    }
+    
+    h3 {
+      text-align: center;
+      font-style: italic;
+      color: #7F8990;
+    }
+
+    p {
+      margin-top: 5%;
+      margin-bottom: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-left: 2%;
+      padding-right: 2%;
+      border: 2px #3499DA;
+      border-style: solid;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Forced Drinking</h1>
+  <h3>How I do x</h3>
+  <p>This is my blog. I will write about my thoughts, experiences, and ideas here.</p>
+</body>
+</html>
