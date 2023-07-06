@@ -1,6 +1,19 @@
 <body style="background-color: black;display:flex; flex-direction:column; justify-content:center;min-height:100vh;">
+    <script>
+        function random_bg_color() {
+            var x = Math.floor(Math.random() * 256);
+            var y = Math.floor(Math.random() * 256);
+            var z = Math.floor(Math.random() * 256);
+            var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+            var color = "rgb(" + 20 + "," + y + "," + x + ")";
+        
+            document.body.style.background = bgColor;
+            document.body.style.color = color;
+        }
+        random_bg_color();
+    </script>
     <center>
-        <h1 style="text-align: center;font-size:120px;color: white;text-decoration: solid;">ARE<br/>YOU<br/>BEING<br/>A<br/>FANATIC?</h1>
-        <h3 style="color: white;font-style: italic;">- a person filled with excessive and <b>single-minded</b> zeal, especially for an extreme cause.</h3>
+        <h1 style="text-align: center;font-size:120px;text-decoration: solid;">ARE<br/>YOU<br/>BEING<br/>A<br/>FANATIC?</h1>
+        <h3 style="font-style: italic;">- a person filled with excessive and <b>single-minded</b> zeal, especially for an extreme cause.</h3>
     </center>
 </body>
